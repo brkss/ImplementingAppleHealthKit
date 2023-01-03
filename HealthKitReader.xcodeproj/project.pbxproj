@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23DE9F372964682100840DDF /* HealthKitReaderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE9F362964682100840DDF /* HealthKitReaderApp.swift */; };
+		23DE9F392964682100840DDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE9F382964682100840DDF /* ContentView.swift */; };
+		23DE9F3B2964682300840DDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DE9F3A2964682300840DDF /* Assets.xcassets */; };
+		23DE9F3E2964682300840DDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23DE9F3D2964682300840DDF /* Preview Assets.xcassets */; };
+		23DE9F482964682300840DDF /* HealthKitReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE9F472964682300840DDF /* HealthKitReaderTests.swift */; };
+		23DE9F522964682300840DDF /* HealthKitReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE9F512964682300840DDF /* HealthKitReaderUITests.swift */; };
+		23DE9F542964682300840DDF /* HealthKitReaderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DE9F532964682300840DDF /* HealthKitReaderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23DE9F442964682300840DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23DE9F2B2964682100840DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23DE9F322964682100840DDF;
+			remoteInfo = HealthKitReader;
+		};
+		23DE9F4E2964682300840DDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 23DE9F2B2964682100840DDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 23DE9F322964682100840DDF;
+			remoteInfo = HealthKitReader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		23DE9F332964682100840DDF /* HealthKitReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthKitReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DE9F362964682100840DDF /* HealthKitReaderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitReaderApp.swift; sourceTree = "<group>"; };
+		23DE9F382964682100840DDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		23DE9F3A2964682300840DDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		23DE9F3D2964682300840DDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		23DE9F432964682300840DDF /* HealthKitReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthKitReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DE9F472964682300840DDF /* HealthKitReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitReaderTests.swift; sourceTree = "<group>"; };
+		23DE9F4D2964682300840DDF /* HealthKitReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HealthKitReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DE9F512964682300840DDF /* HealthKitReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitReaderUITests.swift; sourceTree = "<group>"; };
+		23DE9F532964682300840DDF /* HealthKitReaderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitReaderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		23DE9F302964682100840DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DE9F402964682300840DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DE9F4A2964682300840DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23DE9F2A2964682100840DDF = {
+			isa = PBXGroup;
+			children = (
+				23DE9F352964682100840DDF /* HealthKitReader */,
+				23DE9F462964682300840DDF /* HealthKitReaderTests */,
+				23DE9F502964682300840DDF /* HealthKitReaderUITests */,
+				23DE9F342964682100840DDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		23DE9F342964682100840DDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				23DE9F332964682100840DDF /* HealthKitReader.app */,
+				23DE9F432964682300840DDF /* HealthKitReaderTests.xctest */,
+				23DE9F4D2964682300840DDF /* HealthKitReaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		23DE9F352964682100840DDF /* HealthKitReader */ = {
+			isa = PBXGroup;
+			children = (
+				23DE9F362964682100840DDF /* HealthKitReaderApp.swift */,
+				23DE9F382964682100840DDF /* ContentView.swift */,
+				23DE9F3A2964682300840DDF /* Assets.xcassets */,
+				23DE9F3C2964682300840DDF /* Preview Content */,
+			);
+			path = HealthKitReader;
+			sourceTree = "<group>";
+		};
+		23DE9F3C2964682300840DDF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				23DE9F3D2964682300840DDF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		23DE9F462964682300840DDF /* HealthKitReaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				23DE9F472964682300840DDF /* HealthKitReaderTests.swift */,
+			);
+			path = HealthKitReaderTests;
+			sourceTree = "<group>";
+		};
+		23DE9F502964682300840DDF /* HealthKitReaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				23DE9F512964682300840DDF /* HealthKitReaderUITests.swift */,
+				23DE9F532964682300840DDF /* HealthKitReaderUITestsLaunchTests.swift */,
+			);
+			path = HealthKitReaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		23DE9F322964682100840DDF /* HealthKitReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23DE9F572964682300840DDF /* Build configuration list for PBXNativeTarget "HealthKitReader" */;
+			buildPhases = (
+				23DE9F2F2964682100840DDF /* Sources */,
+				23DE9F302964682100840DDF /* Frameworks */,
+				23DE9F312964682100840DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HealthKitReader;
+			productName = HealthKitReader;
+			productReference = 23DE9F332964682100840DDF /* HealthKitReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		23DE9F422964682300840DDF /* HealthKitReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23DE9F5A2964682300840DDF /* Build configuration list for PBXNativeTarget "HealthKitReaderTests" */;
+			buildPhases = (
+				23DE9F3F2964682300840DDF /* Sources */,
+				23DE9F402964682300840DDF /* Frameworks */,
+				23DE9F412964682300840DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23DE9F452964682300840DDF /* PBXTargetDependency */,
+			);
+			name = HealthKitReaderTests;
+			productName = HealthKitReaderTests;
+			productReference = 23DE9F432964682300840DDF /* HealthKitReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		23DE9F4C2964682300840DDF /* HealthKitReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 23DE9F5D2964682300840DDF /* Build configuration list for PBXNativeTarget "HealthKitReaderUITests" */;
+			buildPhases = (
+				23DE9F492964682300840DDF /* Sources */,
+				23DE9F4A2964682300840DDF /* Frameworks */,
+				23DE9F4B2964682300840DDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23DE9F4F2964682300840DDF /* PBXTargetDependency */,
+			);
+			name = HealthKitReaderUITests;
+			productName = HealthKitReaderUITests;
+			productReference = 23DE9F4D2964682300840DDF /* HealthKitReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		23DE9F2B2964682100840DDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					23DE9F322964682100840DDF = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					23DE9F422964682300840DDF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 23DE9F322964682100840DDF;
+					};
+					23DE9F4C2964682300840DDF = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 23DE9F322964682100840DDF;
+					};
+				};
+			};
+			buildConfigurationList = 23DE9F2E2964682100840DDF /* Build configuration list for PBXProject "HealthKitReader" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 23DE9F2A2964682100840DDF;
+			productRefGroup = 23DE9F342964682100840DDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				23DE9F322964682100840DDF /* HealthKitReader */,
+				23DE9F422964682300840DDF /* HealthKitReaderTests */,
+				23DE9F4C2964682300840DDF /* HealthKitReaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		23DE9F312964682100840DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DE9F3E2964682300840DDF /* Preview Assets.xcassets in Resources */,
+				23DE9F3B2964682300840DDF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DE9F412964682300840DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DE9F4B2964682300840DDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23DE9F2F2964682100840DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DE9F392964682100840DDF /* ContentView.swift in Sources */,
+				23DE9F372964682100840DDF /* HealthKitReaderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DE9F3F2964682300840DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DE9F482964682300840DDF /* HealthKitReaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DE9F492964682300840DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23DE9F542964682300840DDF /* HealthKitReaderUITestsLaunchTests.swift in Sources */,
+				23DE9F522964682300840DDF /* HealthKitReaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23DE9F452964682300840DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23DE9F322964682100840DDF /* HealthKitReader */;
+			targetProxy = 23DE9F442964682300840DDF /* PBXContainerItemProxy */;
+		};
+		23DE9F4F2964682300840DDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 23DE9F322964682100840DDF /* HealthKitReader */;
+			targetProxy = 23DE9F4E2964682300840DDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		23DE9F552964682300840DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		23DE9F562964682300840DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		23DE9F582964682300840DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthKitReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkasse.wesplit.HealthKitReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		23DE9F592964682300840DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HealthKitReader/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkasse.wesplit.HealthKitReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		23DE9F5B2964682300840DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkasse.wesplit.HealthKitReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthKitReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthKitReader";
+			};
+			name = Debug;
+		};
+		23DE9F5C2964682300840DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkasse.wesplit.HealthKitReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HealthKitReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/HealthKitReader";
+			};
+			name = Release;
+		};
+		23DE9F5E2964682300840DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkasse.wesplit.HealthKitReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthKitReader;
+			};
+			name = Debug;
+		};
+		23DE9F5F2964682300840DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.berkasse.wesplit.HealthKitReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HealthKitReader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		23DE9F2E2964682100840DDF /* Build configuration list for PBXProject "HealthKitReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DE9F552964682300840DDF /* Debug */,
+				23DE9F562964682300840DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23DE9F572964682300840DDF /* Build configuration list for PBXNativeTarget "HealthKitReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DE9F582964682300840DDF /* Debug */,
+				23DE9F592964682300840DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23DE9F5A2964682300840DDF /* Build configuration list for PBXNativeTarget "HealthKitReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DE9F5B2964682300840DDF /* Debug */,
+				23DE9F5C2964682300840DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		23DE9F5D2964682300840DDF /* Build configuration list for PBXNativeTarget "HealthKitReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23DE9F5E2964682300840DDF /* Debug */,
+				23DE9F5F2964682300840DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 23DE9F2B2964682100840DDF /* Project object */;
+}
